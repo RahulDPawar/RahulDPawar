@@ -1,0 +1,202 @@
+    body{
+        background-color: white;
+    }
+    .VerticalIcons{
+        width: 80px;
+        height: 100%;
+        background-color: white;
+        opacity: 0.6;
+        text-align: center;
+        cursor: pointer;
+    }
+    .para{
+        border-radius: 15px;
+        padding-top: 10px;
+    }
+    .para:hover{
+        background-color: #eee;
+    }
+    .para:active{
+        background-color: black;
+        color: white;
+    }
+    .VerticalIcons p span{
+        font-size: 13px;
+    }
+    #ForIcons{
+        font-size: 20px;
+    }
+    .VerticalIcons p{
+        padding-bottom: 20px;
+    }
+    .MainBody{
+        display: flex;
+    }
+    .VerticalMainBody{
+        overflow-y: auto;
+    }
+    .header img{
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .header{
+        display: flex;
+        width: 100%;
+    }
+    .SearchBar{
+        margin-left: 50px;
+        margin-top: 10px;
+        background-color: white;
+        box-shadow:1px 1px 3px 3px grey;
+        opacity: 0.8;
+        padding-left: 10px;
+    }
+    .SearchBar:hover{
+        box-shadow:2px 2px 3px 3px grey;
+    }
+    .header input{
+        outline: none;
+        height: 20px;
+        width: 580px;
+        border: none;
+    }
+    .header button{
+        height: 35px;
+        background-color: white;
+        outline: none;
+        cursor: pointer;
+        width: 45px;
+        border: none;
+        background-color: rgb(218, 214, 214);
+    }
+    .MicBTN{
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 20px;
+        opacity: 0.6;
+        background-color: rgb(240, 236, 236);
+        border-radius: 15px;
+    }
+    .MicBTN:hover{
+        background-color: #eee;
+    }
+    .MicBTN:active{
+        background-color: black;
+        color: white;
+    }
+    #Menu{
+        margin-left: 50px;
+        padding-top: 20px;
+        font-size: 20px;
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    #Options{
+        margin-top: ;
+        margin-left: 30px;
+        padding-top: 20px;
+        font-size: 20px;
+        opacity: 0.6;
+        cursor: pointer;
+    }
+    .SignIN{    
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 110px;
+        height: 30px;
+        font-size: 18px;
+        padding-top: 5px;
+        text-align: center;
+        background-color: white;
+        box-shadow:0.5px 0.5px 2px 2px blue;
+        color: blue;
+        cursor: pointer;
+    }
+    .SignIN:hover{
+        background-color: #eee;
+    }
+    .SignIN:active{
+        background-color: black;
+        color: white;
+    }
+    hr{
+        margin-top: 15px;
+        opacity: 0.5;
+    }
+    .SearchButtons{
+        height: 30px;
+        border-radius: 15px;
+        margin-left: 30px;
+        cursor: pointer;
+        border-color: white;
+    }
+    #NextBTN{
+        background-color: white;
+        border:none;
+        font-weight: bold;
+    }
+    #all{
+        background-color: black;
+        color: white;
+    }
+    .SearchButtons:hover{
+        background-color: rgb(199, 189, 189);
+    }
+    .SearchButtons:active{
+        background-color: black;
+        color: white;
+    }
+    .GetItNow{
+        margin-top: 185px;
+        margin-left: 15px;
+        height: 38px;
+        width: 120px;
+        background-color: white;
+        cursor: pointer;
+    }
+    .GetItNow:hover{
+        background-color: #eee;
+    }
+    .GetItNow:active{
+        background-color: black;
+        color: white;
+    }
+    .ImagesAD{
+        height: 250px;
+        width: 100%;
+        background-image: url(images/AdImg.PNG);    
+        display: flex;
+    }
+    .firstBtn{
+        width: 650px;
+    }
+    .secondBtn{
+    }
+    .CrossBTN{
+        background-color: white;
+        border: none;
+        font-size: 18px;
+        margin-left: 490px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .one{
+        display: flex;
+    }
+    .SameForall a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    .one img{
+        height: 150px;
+        width: 250px;
+        margin-left: 20px;
+    }
+    .SameForall{
+        width: 280px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    
