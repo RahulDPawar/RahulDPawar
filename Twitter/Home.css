@@ -1,0 +1,182 @@
+.HeaderWihSideOptions{
+    display: flex;
+    position: absolute;
+    top: 0;
+    height: 95%;
+    width: 100%;
+}
+.Options{
+    height: 95%;
+    width: 10%;
+    padding:20px;
+    background-color: white;
+}
+.Options a{
+    margin-left: 60px;
+    font-size: 30px;
+    color: rgba(29,161,242,1.00);
+    line-height: 60px;
+}
+.user{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    color: #eee;
+}
+.HomeHeader{
+    left: 20%;
+    height: 10%;
+    width: 50%;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: rgba(187, 176, 176, 0.3);
+}
+.HomeHeader h1{
+    padding-left: 20px;
+}
+.Searchbar{
+    background-color: white;
+    left: 70%;
+    height: 10%;
+    width: 30%;
+}
+.SearchBarBox{
+    background-color: #eee;
+    height: 50px;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    vertical-align: center;
+}
+.Searchbar button{
+    font-size: 20px;  
+    margin-top: 7px;  
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.Searchbar input{
+    width: 230px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #eee;
+    border: none;
+    outline: none;
+}
+.Searchbar hr{
+    margin-top: 10px;
+    border-color: rgba(187, 176, 176, 0.1);
+}
+.PeopleSearching{
+    display: block;
+    overflow-y: auto;
+    top: 10%;
+    left: 175px;
+    position: absolute;
+    height: 90%;
+    width: 50%;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.2px;
+    border-color: rgba(187, 176, 176, 0.3);
+}
+.PeopleSearching:hover{
+    background-color: #eee;
+}
+.PeopleSearching::-webkit-scrollbar {
+    display: none;
+  }
+.RightSections{
+    overflow-y: auto;
+    top: 10%;
+    position: absolute;
+    right: 90px;
+    height: 90%;
+    width: 27%;
+    overflow-y: auto;
+    background-color: white;
+}
+.WhatsHappening{
+    overflow-y: auto;
+    height: 70%;
+    width: 100%;
+    background-color: #eee;
+    border-radius: 20px;
+}
+.RightSections::-webkit-scrollbar {
+    display: none;
+  }
+.WhoToFollow{
+    overflow-y: auto;
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+.PersonSearchBar{
+    position: relative;
+    height: 17%;
+    background-color: white;
+    width: 100%;
+    border-color: rgba(187, 176, 176, 0.3);
+}
+.PersonSearchBar a{
+    color: black;
+    font-size: 50px;
+    height: 80px;
+    width: 90px;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+.PersonSearchBar input{
+    position: absolute;
+    height: 50px;
+    width: 70%;
+    right: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+}
+.ImagesIcons{
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+    background-color: white;
+    padding-left: 100px;
+}
+.ImagesIcons a{
+    padding-right: 10px;
+    opacity: 0.7;
+    color: rgba(29,161,242,1.00);
+}
+.ImagesIcons button{
+    margin-left: ;
+    height: 35px;
+    width: 80px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(29,161,242,1.00);
+    opacity: 0.5;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.MainContentSection{
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+}
+.MainContentSection::-webkit-scrollbar {
+    display: none;
+  }
+
+
