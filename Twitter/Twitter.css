@@ -1,0 +1,188 @@
+body{
+    background-color: white;
+}
+.Top{
+    display: flex;
+    height: 80%;
+}
+.Left{    
+    width: 50%;
+    height: 80%;
+}
+.Right{
+    background-color: white;
+    width: 48%;
+    line-height: 10px;
+    margin-left: 25px;
+}
+.Right img{
+    margin-left: 50px;
+    margin-top: 130px;
+}
+.Firstp{
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.Secondp{
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.CommonButtons{
+    font-size: 17px;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    letter-spacing: 0.05px;
+    border-radius: 15px;
+    border-width: 0.1px;
+    border: 0.1;
+    border-color: #eee;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.CommonButtons:hover{
+    background-color: #eee;
+}
+.TearmsAndConditions{
+    width: 350px;
+    margin-left: 50px;
+    line-height: 20px;
+}
+.TearmsAndConditions a{
+    text-decoration: none;
+    color: rgb(12, 105, 105);
+}
+.Bottom{
+    text-align: center;
+    background-color: white;
+}
+.Bottom a{
+    text-decoration: none;
+    color: rgb(126, 122, 122);
+    padding-right:5px;
+    font-size: 15px;
+}
+.Bottom p{
+    text-decoration: none;
+    color: rgb(126, 122, 122);
+    padding-right:5px;
+    font-size: 15px;
+}
+.LoginPage{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.Register img{
+    margin-left: 200px;
+}
+.Register{
+    background-color: white;
+    height: 650px;
+    width: 500px;
+    text-align: left;
+    border-radius: 15px;
+    position: relative;
+}
+.Register input{
+    height: 50px;
+    width: 430px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.Register input:active{
+    border-color: rgb(55, 206, 226);
+    border-width: 2px;
+}
+.Register p{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Register a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(3, 218, 218);
+}
+.Register a:hover{
+    text-decoration: underline;
+}
+.Register a:active{
+    color: rgb(3, 218, 218);
+}
+#DOB{
+    font-size: 20px;
+    font-weight: bold;
+}
+#DOBInfo{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.Options{
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+#Month{
+    width: 200px;
+}
+.Next{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 430px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(55, 206, 226);
+    opacity: 0.3;
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    font-weight: bolder;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+#EmailInput{
+    display: none;
+}
+#email{
+    display: none;
+}
+.DirectAccount{
+    top: 0;
+    position: absolute;
+    right: 0;
+    width: 48%;
+    line-height: 20px;
+    height: 92%;
+    margin-top: 10px;
+    display: none;
+}
+.DirectAccount img{
+    margin-top: 130px;
+    margin-left: 40px;
+}
+#SecondLogo{
+    margin-left: 40px;
+    width: 50%;
+}
+#SignUp a{
+    color: black;
+    text-decoration: none;
+}

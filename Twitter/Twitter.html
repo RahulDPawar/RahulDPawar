@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="Twitter.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+    <title>Twitter</title>
+</head>
+
+<body>
+    <div class="Top">
+        <div class="Left">
+            <img src="images/Logo.PNG">
+        </div>
+        <div class="Right">
+            <img src="images/Logo2.PNG">
+            <p class="Firstp">Happening now
+            </p>
+            <p class="Secondp">Join Twitter today.
+            </p>
+            <button class="CommonButtons"><i class="fab fa-google"></i> Sign up with Google</button> <br>
+            <button class="CommonButtons"><i class="fab fa-apple"></i> Sign up with Apple</button> <br>
+            <button class="CommonButtons" id="SignUp">Sign up with phone or email</button>
+            <p class="TearmsAndConditions">By signing up, you agree to the <a href="#">Terms of Service</a> and <a
+                    href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>.</p>
+            <p class="TearmsAndConditions">Already have an account? <a href="#" id="LoginLink">Log in</a>
+            </p>
+        </div>
+    </div>
+    <div class="Bottom">
+        <a href="#">About</a>
+        <a href="#">Help Center</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+        <a href="#">Ads info</a>
+        <a href="#">Blog</a>
+        <a href="#">Status</a>
+        <a href="#">Careers</a>
+        <a href="#">Brand Resources</a>
+        <a href="#">Advertising</a>
+        <a href="#">Marketing</a>
+        <a href="#">Twitter for Business</a>
+        <a href="#">Developers</a>
+        <a href="#">Directory</a>
+        <p>Settings
+            © 2021 Twitter, Inc.</p>
+    </div>
+    <div class="LoginPage">
+        <div class="Register">
+            <div class="close">
+                +
+            </div>
+            <img src="images/passiveBackground.png">
+            <p>Create your account
+            </p>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Phone" id="PhoneInput">
+            <input type="text" placeholder="Email" id="EmailInput">
+            <a href="#" id="phone">Use Email instead</a>
+            <a href="#" id="email">Use Phone instead</a>
+            <p id="DOB">Date of birth</p>
+            <p id="DOBInfo">This will not be shown publicly. Confirm your own age, even if this account is for a
+                business, a pet, or something else.</p>
+            <select class="Options" id="Month">
+                <option value="Month">Month</option>
+                <option value="Month">January</option>
+                <option value="Month">February</option>
+                <option value="Month">March</option>
+                <option value="Month">April</option>
+                <option value="Month">May</option>
+                <option value="Month">June</option>
+                <option value="Month">July</option>
+                <option value="Month">August</option>
+                <option value="Month">September</option>
+                <option value="Month">October</option>
+                <option value="Month">November</option>
+                <option value="Month">December</option>
+            </select>
+            <select class="Options">
+                <option value="Day">1</option>
+                <option value="Day">2</option>
+                <option value="Day">3</option>
+                <option value="Day">4</option>
+                <option value="Day">5</option>
+                <option value="Day">6</option>
+                <option value="Day">7</option>
+                <option value="Day">8</option>
+                <option value="Day">9</option>
+                <option value="Day">10</option>
+            </select>
+            <select class="Options">
+                <option value="Year">1998</option>
+                <option value="Year">1999</option>
+                <option value="Year">2000</option>
+                <option value="Year">2001</option>
+                <option value="Year">2002</option>
+                <option value="Year">2003</option>
+                <option value="Year">2004</option>
+                <option value="Year">2005</option>
+            </select>
+            <button class="Next">Next</button>
+        </div>
+    </div>
+    <div class="DirectAccount">
+        <img src="images/Logo2.PNG">
+        <p class="Firstp">Happening now
+        </p>
+        <p class="Secondp">Join Twitter today.
+        </p>
+        <button class="CommonButtons"><i class="fab fa-google"></i> Log in with Google</button> <br>
+        <button class="CommonButtons"><i class="fab fa-apple"></i> Log in with Apple</button> <br>
+        <button class="CommonButtons" id="SignUp"><a href="Login.html">Use phone Email or Username</a> </button>
+        <p class="TearmsAndConditions">Don't have an account? <a href="#" id="SignUpLink">Sign Up</a></p>
+    </div>
+    <script>
+        document.getElementById('SignUp').addEventListener('click', function () {
+            document.querySelector('.LoginPage').style.display = 'flex';
+        });
+        document.querySelector('.close').addEventListener('click', function () {
+            document.querySelector('.LoginPage').style.display = 'none';
+        });
+        document.getElementById('email').addEventListener('click', function () {
+            document.querySelector('#PhoneInput').style.display = 'none';
+            document.querySelector('#EmailInput').style.display = 'flex';
+            document.querySelector('#phone').style.display = 'flex';
+            document.querySelector('#email').style.display = 'none'
+        });
+        document.getElementById('phone').addEventListener('click', function () {
+            document.querySelector('#PhoneInput').style.display = 'flex';
+            document.querySelector('#EmailInput').style.display = 'none';
+            document.querySelector('#phone').style.display = 'none';
+            document.querySelector('#email').style.display = 'flex';
+        });
+        document.getElementById('LoginLink').addEventListener('click', function () {
+            document.querySelector('.DirectAccount').style.display = 'block';
+            document.querySelector('.Right').style.display = 'none';
+        });
+        document.getElementById('SignUpLink').addEventListener('click', function () {
+            document.querySelector('.DirectAccount').style.display = 'none';
+            document.querySelector('.Right').style.display = 'block';
+        });
+    </script>
+</body>
+
+</html>
