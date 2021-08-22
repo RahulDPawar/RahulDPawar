@@ -1,0 +1,218 @@
+body{
+    background: radial-gradient(rgb(237, 245, 218),#96f0f0);
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+.header img{
+    margin-left: 20px;
+    height: 80px;
+    width: 130px;
+}
+.address{
+    color: white;
+    cursor: pointer;
+}
+.address p{
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+}
+#Location{
+    color: white;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.LocatonBhau{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.SearchBar{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+}
+.All{
+    background-color: rgb(190, 184, 184);
+    height: 35px;
+    width: 100%;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Search{
+    height: 20px;
+    width: 350px;
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;    
+    outline: none;
+}
+.SearchBTN{
+    background-color: orange;
+    height: 35px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.India img{
+    height: 20px;
+    width: 30px;
+}
+.India{
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+#address2{
+    margin-left: 20px;
+}
+#Cart{
+    color: white;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.Options{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.Options a{
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    cursor: pointer;
+}
+.Options img{
+    margin-left: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+.ProductsAds img{
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+}
+.SectionsProduct{
+    display: flex;
+    height: 520px;
+    width: 100%;
+    background: radial-gradient(rgb(237, 245, 218),#96f0f0);
+    
+}
+.CommonSection{
+    margin-left: 20px;
+    height: 480px;
+    width: 300px;
+    background-color: white;
+    box-shadow:2px 2px 2px 2px grey; 
+}
+.CommonSection h2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.CommonSection p{
+    font-size: 20px;
+}
+.CommonSection img{
+    height: 100px;
+    width: 140px;
+}
+.CommonColumn{
+    width: 140px;
+}
+.CommonColumn p{
+    font-size: 15px;
+}
+.UpFooter{
+    text-align: center;
+    background-color: white;
+}
+.SignIn{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(orange,white);
+}
+.UpFooter a{
+    color: rgb(109, 109, 221);
+    text-decoration: none;
+}
+.BackToTop{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(70, 66, 66);
+    color: white;
+    cursor: pointer;
+}
+.ImpLinks{
+    background-color: black;
+    display: flex;
+}
+.Section1{
+    margin-left: 120px;
+}
+.Section1 p a{
+    color: white;
+    opacity: 0.6;
+}
+#HeadingsForLinks{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 2;
+}
+.Language{
+    background-color: black;
+    
+}
+.Language img{
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    margin-left: 500px;
+    
+}
+.papa{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    margin-left: 30px;
+}
+.Countries{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: black;
+}
+.Countries a{
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+.CoCountries{
+    background-color: black;
+}
+.Footer{
+    background-color: black;
+    height: 50px;
+}
+.Footer p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
