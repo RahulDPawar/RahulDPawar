@@ -164,7 +164,7 @@
     .ImagesAD{
         height: 250px;
         width: 100%;
-        background-image: url(Images/AdImg.png);    
+        background-image: url(Images/AdImg.PNG);    
         display: flex;
     }
     .firstBtn{
