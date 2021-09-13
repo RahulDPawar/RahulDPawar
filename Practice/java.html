@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="java.css">
+    <title>JavaScript practice</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" name="screen" id="screen">
+        <table>
+            <tr>
+                <td>
+                    <button>(</button>
+                    <button>)</button>
+                    <button>C</button>
+                    <button>%</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>X</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>-</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>+</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>0</button>
+                    <button>.</button>
+                    <button>/</button>
+                    <button>=</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <script>
+        let screen = document.getElementById('screen');
+        buttons = document.querySelectorAll('button');
+        screenValue = '';
+        for (item of buttons) {
+            item.addEventListener('click',(e)=> {
+                buttonText = e.target.innerText;
+                console.log('you clicked ', buttonText)
+                if (buttonText == 'X') {
+                    buttonText = '*';
+                    screenValue += buttonText;
+                    screen.value = screenValue;
+                }
+                else if (buttonText == 'C') {
+                    buttonText = '';
+                    screenValue = buttonText;
+                    screen.value = screenValue;
+                }
+                else if (buttonText == '=') {
+                    screen.value = eval(screenValue);
+                }
+                else {
+                    screenValue += buttonText;
+                    screen.value = screenValue;
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
