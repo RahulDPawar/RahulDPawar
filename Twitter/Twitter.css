@@ -186,3 +186,37 @@ body{
     color: black;
     text-decoration: none;
 }
+
+@media only screen and (max-width:800px){
+    .Left{
+        position: absolute;
+        top: 90%;
+        width: 100%;
+    }
+    .Left img{
+        height: 70%;
+        width: 100%;
+    }
+    .Top{
+        display: inline-block;
+    }
+    .Bottom{
+        margin-top: 100%;
+    }
+    .Right{
+        width: 100%;
+    }
+    .Firstp{
+        font-size: 300%;
+    }
+    .Secondp{
+        font-size: 200%;
+    }
+    .Right img{
+        margin-top: 20px;
+    }
+    .Register{
+        height: 100%;
+        width: 100%;
+    }
+}
