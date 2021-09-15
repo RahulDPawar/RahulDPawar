@@ -214,5 +214,153 @@ body{
     font-size: 18px;
     margin-bottom: 20px;
 }
-
+#menu{
+    display: none;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.afterResponse{
+    display: none;
+}
+#Location1{
+    display: none;
+}
+.ResponsiveFooter{
+    display: none;
+}
+/*-----Media query for menu-----*/
+@media only screen and (max-width:800px){
+    body{
+    }
+    #menu{
+        display: flex;
+    }
+    .address{
+        position: absolute;
+        left: 50%;
+        top:80%;
+    }
+    .Options{
+        display: none;
+    }
+    .afterResponse{
+        display: flex;
+        float: left;
+    }
+    .beforeResonse{
+        display: none;
+    }
+    #Location{
+        display: none;
+    }
+    #Location1{
+        position: absolute;
+        top: 65%;
+        left: 10%;
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+    .SearchBar{
+        position: absolute;
+        top: 30%;
+        width: 90%;
+    }
+    .SearchBar input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .header{
+        height: 150px;
+    }
+    .header img{
+        height: 40px;
+        margin-top: 13px;
+        width: 80px;
+    }
+    .India{
+        display: none;
+    }
+    #address2{
+        display: none;
+    }
+    #Cart{
+        font-size: 15px;
+        margin-left: 40%;
+    }
+    .address{
+        background-color: aqua;
+        width: 100%;
+        margin-right: 20px;
+    }
+    .SectionsProduct{
+        display: block;
+        position: relative;
+    }
+    .UpFooter{
+        display: none;
+    }
+    #SectionsProduct2{
+        display: none;
+        position: fixed;
+    }
+    .UpFooter{
+        display: none;
+    }
+    .ResponsiveFooter{
+        font-family: 'Ubuntu', sans-serif;
+        display: block;
+        position: absolute;
+        top: 2430px;
+        background-color: black;
+        height: 200%;
+        width: 100%;
+        line-height: 1;
+    }
+    .ResponsiveFooter img{
+        cursor: pointer;
+        margin-left: 6%;
+        height: 80px;
+        width: 100px;
+    }
+    .ResponsiveFooter p{
+        cursor: pointer;
+        margin-left: 10%;
+        font-size: 15px;
+        color: white;
+    }
+    .ResponsiveFooter h3,h4,h5{
+        cursor: pointer;
+        margin-top: 30px;
+        color: white;
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+    .ResponsiveFooter hr{
+        opacity: 0.3;
+    }
+    .ResponsiveFooter button{
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 10px;
+        height: 30px;
+        color: white;
+        background-color: rgb(7, 31, 136);
+        margin-bottom: 10%;
+    }
+    .FirstBtn{
+        margin-left: 10%;
+    }
+    .ResponsiveFooter a{
+        cursor: pointer;
+        color: white;
+        line-height: 2;
+        text-decoration: none;
+    }
+    .FirstA{
+        margin-left: 10%;
+    }
+}
 
