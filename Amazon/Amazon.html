@@ -72,7 +72,7 @@
         <img src="Images/Scrolable.PNG">
     </div>
     <div class="SectionsProduct">
-        <div class="CommonSection">
+        <div class="CommonSection" id="SectionsProduct1">
             <h2>Save up to ₹9,000 | Mobiles to suit your...</h2>
             <table>
                 <tr>
@@ -100,7 +100,7 @@
                 </tr>
             </table>
         </div>
-        <div class="CommonSection">
+        <div class="CommonSection" id="SectionsProduct1">
             <h2>Save up to ₹9,000 | Mobiles to suit your...</h2>
             <table>
                 <tr>
@@ -128,7 +128,7 @@
                 </tr>
             </table>
         </div>
-        <div class="CommonSection">
+        <div class="CommonSection" id="SectionsProduct1">
             <h2>Save up to ₹9,000 | Mobiles to suit your...</h2>
             <table>
                 <tr>
@@ -156,7 +156,7 @@
                 </tr>
             </table>
         </div>
-        <div class="CommonSection">
+        <div class="CommonSection" id="SectionsProduct1">
             <h2>Save up to ₹9,000 | Mobiles to suit your...</h2>
             <table>
                 <tr>
@@ -451,16 +451,24 @@
         <p class="MyAccount"><a href="#">My Account</a></p>
         <p><a href="#">Settings</a></p>
     </div>
-    <button onclick="toggleText()">button</button>
-<p id="Myid">Text</p>
+    <div id="SlidingContainer" onclick="SideWindow()">
+        
+    </div>
     <script>
-        function MenuFunction(){
+        function MenuFunction() {
             document.getElementById("SlidingWindow").style.display = "block";
+            document.getElementById("SlidingContainer").style.display = "block";
+            document.body.style.overflow = 'hidden';
         }
-function CloseFunction(){
-    document.getElementById("SlidingWindow").style.display = "none";
-}
+        function CloseFunction() {
+            document.getElementById("SlidingWindow").style.display = "none";
+            document.getElementById("SlidingContainer").style.display = "none";
+        }
+        function SideWindow(){
+            document.getElementById("SlidingWindow").style.display = "none";
+            document.getElementById("SlidingContainer").style.display = "none";
+        }
     </script>
 </body>
 
-</html> 
+</html>
