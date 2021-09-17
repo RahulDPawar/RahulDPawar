@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="Amazon.css">
     <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
     <title>Amazon</title>
 </head>
 
 <body>
     <div class="header">
-        <i class="fas fa-align-justify" id="menu"></i>
+        <i class="fas fa-align-justify" id="menu" onclick="MenuFunction()"></i>
         <img src="Images/logo1.PNG">
         <i class="fas fa-map-marker-alt" id="Location"></i>
         <div class="address">
@@ -419,24 +419,48 @@
         <button><i class="fas fa-flag-usa"></i> English(US) <i class="fas fa-angle-down"></i></button><br>
         <a href="#" class="FirstA">Australia </a>
         <a href="#">Brazil </a>
-<a href="#">Canada </a>
-<a href="#">China </a>
-<a href="#">France </a>
-<a href="#">Germany </a>
-<a href="#" class="FirstA">India </a>
-<a href="#">Italy </a>
-<a href="#">Japan </a>
-<a href="#">Mexico </a>
-<a href="#">Netherlands </a>
-<a href="#">Poland </a>
-<a href="#" class="FirstA">Singapore </a>
-<a href="#">Spain </a>
-<a href="#">Turkey </a>
-<a href="#">United Arab Emirates</a>
-<a href="#" class="FirstA">United Kingdom </a>
-<a href="#">United States</a>
-<h5>Conditions of Use & SalePrivacy NoticeInterest-Based Ads© 1996-2021, Amazon.com, Inc. or its affiliates</h5>
+        <a href="#">Canada </a>
+        <a href="#">China </a>
+        <a href="#">France </a>
+        <a href="#">Germany </a>
+        <a href="#" class="FirstA">India </a>
+        <a href="#">Italy </a>
+        <a href="#">Japan </a>
+        <a href="#">Mexico </a>
+        <a href="#">Netherlands </a>
+        <a href="#">Poland </a>
+        <a href="#" class="FirstA">Singapore </a>
+        <a href="#">Spain </a>
+        <a href="#">Turkey </a>
+        <a href="#">United Arab Emirates</a>
+        <a href="#" class="FirstA">United Kingdom </a>
+        <a href="#">United States</a>
+        <h5>Conditions of Use & SalePrivacy NoticeInterest-Based Ads© 1996-2021, Amazon.com, Inc. or its affiliates</h5>
     </div>
+    <div id="SlidingWindow">
+        <h1 onclick="CloseFunction()"><i class="fas fa-times"></i></h1>
+        <p><a href="#">Opinion</a></p>
+        <p><a href="#">Economy</a></p>
+        <p><a href="#">International</a></p>
+        <p><a href="#">Soceity</a></p>
+        <p><a href="#">Culture</a></p>
+        <p><a href="#">Sports</a></p>
+        <p><a href="#">Technology</a></p>
+        <p><a href="#">Science</a></p>
+        <p><a href="#">Health</a></p>
+        <p class="MyAccount"><a href="#">My Account</a></p>
+        <p><a href="#">Settings</a></p>
+    </div>
+    <button onclick="toggleText()">button</button>
+<p id="Myid">Text</p>
+    <script>
+        function MenuFunction(){
+            document.getElementById("SlidingWindow").style.display = "block";
+        }
+function CloseFunction(){
+    document.getElementById("SlidingWindow").style.display = "none";
+}
+    </script>
 </body>
 
-</html>
+</html> 
