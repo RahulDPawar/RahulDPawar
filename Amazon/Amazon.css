@@ -230,6 +230,9 @@ body{
 .ResponsiveFooter{
     display: none;
 }
+#SlidingWindow{
+    display: none;
+}
 /*-----Media query for menu-----*/
 @media only screen and (max-width:800px){
     body{
@@ -361,6 +364,32 @@ body{
     }
     .FirstA{
         margin-left: 10%;
+    }
+    #SlidingWindow{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        margin-top: 10px;
+        display: none;
+        width: 70%;
+        background-color: white;
+    }
+    #SlidingWindow h1{
+        margin-bottom: 20%;
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    #SlidingWindow a{
+        text-decoration: none;
+    }
+    #SlidingWindow p{
+        margin-bottom: 10%;
+        font-size: 20px;
+        margin-left: 10%;
+        font-weight: bolder;
+    }
+    .MyAccount{
+        margin-top: 40%;
     }
 }
 
