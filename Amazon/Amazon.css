@@ -1,8 +1,9 @@
 body{
     background: radial-gradient(rgb(237, 245, 218),#96f0f0);
+    margin: 0;
 }
 .header{
-    width: 100%;
+    top: 0;
     height: 80px;
     background-color: black;
     display: flex;
@@ -236,6 +237,7 @@ body{
 /*-----Media query for menu-----*/
 @media only screen and (max-width:800px){
     body{
+
     }
     #menu{
         display: flex;
@@ -305,6 +307,17 @@ body{
     .UpFooter{
         display: none;
     }
+    #SectionsProduct1{
+        margin-left: 0;
+        text-align: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #SectionsProduct1 table{
+        margin-left: auto;
+        margin-right: auto;
+    }
     #SectionsProduct2{
         display: none;
         position: fixed;
@@ -367,9 +380,8 @@ body{
     }
     #SlidingWindow{
         position: absolute;
-        height: 100%;
+        height: 150%;
         top: 0;
-        margin-top: 10px;
         display: none;
         width: 70%;
         background-color: white;
@@ -389,7 +401,17 @@ body{
         font-weight: bolder;
     }
     .MyAccount{
-        margin-top: 40%;
+        margin-top: 20%;
+    }
+    #SlidingContainer{
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #eee;
+        height: 150%;
+        width: 30%;
+        opacity: 0.2;
     }
 }
 
