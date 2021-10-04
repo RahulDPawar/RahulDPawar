@@ -257,7 +257,7 @@ margin-left: 20px;
     display: none;
     position: absolute;
     top: 0;
-    background-color: aqua;
+    background-color: rgb(103, 238, 238);
     height: 30%;
     width: 20%;
     margin-top: 4%;
@@ -271,7 +271,7 @@ margin-top: 15%;
 }
 #arrow{
     position: absolute;
-    background-color: aqua;
+    background-color: rgb(103, 238, 238);
     margin-right: 20px;
     height: 20%;
     width: 20%;
@@ -321,6 +321,12 @@ margin-top: 15%;
     }
     #menuWindow h3{
         font-size: 100%;
+    }
+    #header{
+        background-color: rgb(103, 238, 238);
+    }
+    .SearchBar{
+        background-color: rgb(103, 238, 238);
     }
 }
 
