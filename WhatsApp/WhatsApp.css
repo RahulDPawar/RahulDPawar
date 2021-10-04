@@ -125,15 +125,6 @@ body {
     outline: none;
     margin-left: 4%;
 }
-#ContactSection2{
-    display: none;
-    height: 40%;
-    overflow-y:auto;
-    background-color: #eee;
-}
-#ContactSection2::-webkit-scrollbar {
-    display: none;
-  }
 #ContactSection{
     height: 55%;
     overflow-y:auto;
