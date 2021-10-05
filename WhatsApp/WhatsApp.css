@@ -4,6 +4,7 @@ body {
   }
 .container{
     display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #MainClickableContent{
     display: block;
@@ -248,13 +249,14 @@ margin-left: 20px;
     display: none;
     position: absolute;
     top: 0;
-    background-color: rgb(103, 238, 238);
+    background-color: white;
     height: 30%;
     width: 20%;
     margin-top: 4%;
     margin-left: 15%;
     border-radius: 15px;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #menuWindow h3{
 cursor: pointer;
@@ -262,7 +264,7 @@ margin-top: 15%;
 }
 #arrow{
     position: absolute;
-    background-color: rgb(103, 238, 238);
+    background-color: white;
     margin-right: 20px;
     height: 20%;
     width: 20%;
