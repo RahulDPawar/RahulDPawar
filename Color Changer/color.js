@@ -1,13 +1,11 @@
-const hex = [0,1,2,3,4,5,6,7,8,9,"A","B","C","D","F"];
+const colors =["green","pink","blue","red"];
 const color = document.querySelector('.color');
 function Btn(){
-    let hexColor = '#';
-    for(let i=0;i<6;i++){
-        hexColor+=hex[getRandomNumber()];
-    }
-    color.textContent = hexColor;
-    document.body.style.backgroundColor = hexColor;
+    const randomNumber = getRandomNumber();
+    console.log(randomNumber);
+    document.body.style.backgroundColor =colors[randomNumber];
+    color.textContent = colors[randomNumber];
 }
 function getRandomNumber(){
-    return Math.floor(Math.random()*hex.length);
-}        
+    return Math.floor(Math.random()*colors.length);
+}
