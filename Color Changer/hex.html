@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+    <link rel="stylesheet" href="color.css">
+    <title>Color Flipper</title>
+</head>
+<body>
+    <div class="DaddyHeader">
+        <div class="header">
+            <h4>Color Flipper</h4><a href="hex.html">Hex</a><a href="color.html">Simple</a>
+        </div>
+    </div>
+    <div class="BtnSection">
+        <p>Color code : <span class="color">#0000</span></p>
+        <button onclick="Btn()">Click me</button>
+    </div>
+    <div id="menuBtn" onclick="menuBtn()">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div id="exitBtn" onclick="exitBtn()">
+        <i class="fas fa-times"></i>
+    </div>
+    <div id="dropDown">
+       <a href="#">Simple</a><br> <a href="#">Hex</a>
+    </div>
+    <script src="hex.js"></script>
+    <script>
+        function menuBtn(){
+            document.getElementById("dropDown").style.display = "block";
+            document.getElementById("exitBtn").style.display = "block";
+            document.getElementById("menuBtn").style.display = "none";
+        }
+        function exitBtn(){
+            document.getElementById('dropDown').style.display = 'none';
+            document.getElementById('exitBtn').style.display = 'none';
+            document.getElementById("menuBtn").style.display = "block";
+        }
+    </script>
+</body>
+</html>
